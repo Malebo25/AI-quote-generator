@@ -1,0 +1,85 @@
+body {
+  background: linear-gradient(to bottom, #87a79b 0%, #9f816c 50%, white 100%);
+}
+@font-face {
+  font-family: "nesto";
+  src: url("./assets/bilona-medium-font/BilonaMedium-2v6W3.otf");
+}
+.container {
+  margin: 0px auto;
+  max-width: 600px;
+  padding: 30px;
+  background-color: #204836;
+  border-radius: 20px;
+}
+h1 {
+  font-family: "Libre Baskerville";
+  color: #6c584f;
+  text-transform: uppercase;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+h2 {
+  text-transform: uppercase;
+  font-size: rem;
+  font-family: "nesto";
+  line-height: 1.5;
+}
+p {
+  text-transform: capitalize;
+  font-size: smaller;
+}
+form {
+  padding: 30px;
+
+  border-radius: 10px;
+  display: flex;
+  position: relative;
+  left: 48px;
+}
+.instructions {
+  background: white;
+  padding: 14px;
+  width: 60%;
+  font-size: 16px;
+  border: 1px solid rgba(39, 33, 66, 0.5);
+  border-radius: 50px;
+  line-height: 20px;
+  color: black;
+}
+.generate {
+  margin-left: 5px;
+  background: #9f816c;
+  color: white;
+  border: none;
+  width: 15%;
+  font-size: 16px;
+  border-radius: 50px;
+  padding: 14px;
+}
+.app {
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 0px;
+  color: white;
+  font-family: "Libre Baskerville", serif;
+  text-align: center;
+}
+video {
+  width: 500px;
+
+  justify-content: center;
+
+  position: relative;
+  left: 45px;
+}
+footer {
+  margin-top: 50px;
+  color: white;
+  text-align: center;
+}
+a {
+  text-decoration: solid;
+  color: grey;
+  text-align: center;
+}

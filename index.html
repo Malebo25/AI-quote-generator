@@ -1,0 +1,77 @@
+<!-- 
+  TODO: Create a motivational post website.
+Style it how ever you like. 
+Look at the goal image for inspiration.
+But it must have the following features:
+1. The main h1 text should be using the Regular Libre Baskerville Font from Google Fonts:
+  https://fonts.google.com/specimen/Libre+Baskerville
+2. The text should be white and background black.
+3. Add your own image into the images folder inside assets. It should have a 5px white border.
+4. The text should be center aligned.
+5. Create a div to contain the h1, p and img elements. Adjust the margins so that the image and text are centered on the page. 
+  Hint: You horizontally center a div by giving it a width of 50% and a margin-left of 25%.
+  Hint: Set the image to have a width of 100% so it fills the div. 
+6. Read about the text-transform property on MDN docs to make the h1 uppercase with CSS.
+  https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform 
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+    <title>Document</title>
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  <div class="container" >
+
+
+</head> 
+      <div class="app">
+
+        <h1>Zenith~</h1>
+        <p>Inspirational Quote generator powered by Artificial Intelligence</p>
+      </div>
+      <form id="form" action="">
+        <input class="instructions" id="word" type="text" placeholder="Search any theme eg. 'Love' " autofocus required>
+        <input type="submit" class="generate" value="generate">
+      </form>
+  </head>
+  <body>
+    <div>
+
+      <video  loop controls   width="340" height="340" >
+  <source src="./assets/images/1390942-uhd_4096_2160_24fps.mp4" type="video/mp4">
+  
+  </video>
+    </div>
+    <div class="app">
+      <h2 id="quote" ></h2>
+      
+    </div>
+    <script src="./src/index.js"></script>
+  </body>
+    
+     <footer>
+        <div>
+
+          <p>
+              This project was coded by
+              <a href="https://github.com/Malebo25" target="_blank"> Malebo Motlhake</a>,
+              is
+              <a href="https://github.com/Malebo25/weather" target="_blank"
+                >open-sourced on GitHub</a
+              >
+              and
+              <a href="https://malebo-weatherapp.netlify.app/" target="_blank"
+                >hosted on Netlify</a
+              >
+            </p>
+        </div>
+        </footer>
+    </div>
+</html>
