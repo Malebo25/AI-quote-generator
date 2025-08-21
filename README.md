@@ -1,1 +1,1 @@
-DEPLOYMENT LINK : https://app.netlify.com/projects/ai-quoteqenerator/overview
+DEPLOYMENT LINK : https://ai-quoteqenerator.netlify.app/
