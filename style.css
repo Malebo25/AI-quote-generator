@@ -3,18 +3,18 @@ body {
 }
 @font-face {
   font-family: "nesto";
-  src: url("./assets/countryside-font/Countryside-YdKj.ttf");
+  src: url("./assets/beautiful-people-font/BeautifulPeoplePersonalUse-dE0g.ttf");
 }
 .container {
   margin: 0px auto;
   max-width: 600px;
   padding: 30px;
-  background-color: #204836;
+  background-color: black;
   border-radius: 20px;
 }
 h1 {
   font-family: "nesto";
-  color: silver;
+  color: white;
   text-transform: uppercase;
   font-size: 3.5rem;
   line-height: 1.5;
@@ -49,7 +49,7 @@ form {
 }
 .generate {
   margin-left: 5px;
-  background: #9f816c;
+  background: #87a79b;
   color: white;
   border: none;
   width: 15%;
